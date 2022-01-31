@@ -1,0 +1,198 @@
+strong {
+    font-weight: 700;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    width: 90%;
+    background-color: transparent;
+}
+.attorney-nav-iiner {
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 5%);
+}
+.attorney-nav-iiner .attorney-nav {
+    width: 100%;
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 20px 0 0;
+}
+.attorney-nav .nav-link.active {
+    color: #012cae !important;
+}
+
+.questionnaire-wrapper {
+    padding: 0 30px;
+}
+
+.questionnaire-main-title {
+    padding: 20px 12px;
+    position: relative;
+}
+.questionnaire-main-title h3 {
+    font-size: 28px;
+}
+.tab-content .download-form {
+    border-radius: 0;
+    position: absolute;
+    top: 17px;
+    right: 0;
+}
+.questionnaire-logo img {
+    width: 80px;
+}
+
+.section-part-title span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+
+.radio-btn label {
+    position: relative;
+    top: -3px;
+    left: 2px;
+}
+
+.fixed-topbar {
+    position: sticky;
+    top: 0;
+    transition: all 0.5s;
+}
+
+.next-part-btn .btn {
+    border-radius: 3px;
+}
+
+.radio-primary.radio {
+    user-select: none;
+}
+
+.hidestep {
+    display: none;
+}
+
+.tab-content {
+    padding: 35px 13px;
+    background: #fff;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 5%);
+}
+.nav-link.active {
+    cursor: pointer;
+}
+.nav-pills .nav-link {
+    /*cursor: no-drop;*/
+}
+.footer-copyright {
+    padding: 14px 0px;
+    background: #f0f8ffc2;
+}
+.hide-data {
+    display: none;
+}
+
+.next-part-btn {
+    padding-top: 20px;
+}
+.font-lg-18 {
+    font-size: 18px;
+}
+.add-more-btn .btn {
+    padding: 4px 10px;
+    font-size: 11px;
+}
+.total-amount-income-table tr td {
+    vertical-align: top;
+    white-space: normal;
+}
+.total-amount-income-table tr td .form-control {
+    width: auto;
+}
+.table th {
+    border: none;
+}
+.table tr td .radio input[type="radio"] + .cr:after {
+    top: 15px;
+}
+.unique-sec .radio input[type="radio"] + .cr:after {
+    top: 15px;
+}
+@media (max-width: 600px) {
+    .total-amount-income-table tr td {
+        width: auto !important;
+    }
+    .questionnaire-main-title h3 {
+        font-size: 24px;
+    }
+    .nav-pills > li > a {
+        padding: 10px 6px;
+        margin: 4px 0;
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .questionnaire-wrapper-content .nav-pills {
+        flex-direction: row !important;
+    }
+    .tab-content {
+        padding: 25px 13px;
+    }
+    .navbar-light .navbar-brand {
+        width: auto !important;
+    }
+    .questionnaire-logo img {
+        width: 60px;
+    }
+    ul.navbar-nav {
+        padding-right: 0;
+    }
+    .navbar-nav li {
+        padding: 15px 0;
+    }
+    .questionnaire-wrapper {
+        padding: 0 15px;
+    }
+    .tab-content .download-form {
+        position: relative;
+        top: 0;
+    }
+}
+
+.container-1140 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.doc-card-main {
+    display: block;
+    width: 100%;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 5%);
+    padding: 17px 20px;
+    max-width: 680px;
+    margin: 0 auto 30px;
+    border-radius: 9px;
+    position: relative;
+}
+.doc-card {
+    display: flex;
+}
+
+.doc-img img {
+    width: 60px;
+}
+.doc-type {
+    padding-left: 20px;
+}
+.doc-done img {
+    width: 25px;
+    position: absolute;
+    right: 34px;
+    top: 19px;
+}
